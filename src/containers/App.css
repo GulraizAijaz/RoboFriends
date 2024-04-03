@@ -38,4 +38,18 @@
     height:70vh;
     padding:20px;
 }
-
+.df{
+    display: flex;
+    padding: 1rem 0 0 0;
+}
+.jcc{
+    justify-content: center;
+}
+.aic{
+    align-items: center;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tc{
+    text-align: center;
+}

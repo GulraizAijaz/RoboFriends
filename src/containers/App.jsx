@@ -3,6 +3,7 @@ import Searchbox from "../components/Searchbox"
 import './App.css'
 import CardList from "../components/CardList";
 import Scroll from "../components/Scroll";
+import AppTitle from "../components/AppTitle";
 
 function App() {
   const [robots,setRobots] = useState([]);
@@ -38,6 +39,7 @@ function App() {
   return !robots.length ? <h1>loading robots </h1> :
   (
     <>
+      <AppTitle/>
       <Searchbox onfilter={onSearchChange}/>
         <Scroll>
         <CardList robots = {filteredRobots}/>
